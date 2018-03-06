@@ -5,6 +5,12 @@ VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppointmentScheduler.Web", "AppointmentScheduler.Web\AppointmentScheduler.Web.csproj", "{A3A011D4-8610-4283-BC3C-338BD0C91DD0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppointmentScheduler.Domain.Tests", "AppointmentScheduler.Domain.Tests\AppointmentScheduler.Domain.Tests.csproj", "{D0C9A090-C9B1-400B-991A-6AEB4D42DDA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppointmentScheduler.Domain", "AppointmentScheduler.Domain\AppointmentScheduler.Domain.csproj", "{57734ECE-153E-48F8-A89B-6657FF441A85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppointmentScheduler.Infrastructure", "AppointmentScheduler.Infrastructure\AppointmentScheduler.Infrastructure.csproj", "{9F4076BE-EB2F-48FE-BF17-84532098F169}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +36,41 @@ Global
 		{A3A011D4-8610-4283-BC3C-338BD0C91DD0}.Release|x64.Build.0 = Release|x64
 		{A3A011D4-8610-4283-BC3C-338BD0C91DD0}.Release|x86.ActiveCfg = Release|x86
 		{A3A011D4-8610-4283-BC3C-338BD0C91DD0}.Release|x86.Build.0 = Release|x86
+		{D0C9A090-C9B1-400B-991A-6AEB4D42DDA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0C9A090-C9B1-400B-991A-6AEB4D42DDA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0C9A090-C9B1-400B-991A-6AEB4D42DDA3}.Debug|x64.ActiveCfg = Debug|x64
+		{D0C9A090-C9B1-400B-991A-6AEB4D42DDA3}.Debug|x64.Build.0 = Debug|x64
+		{D0C9A090-C9B1-400B-991A-6AEB4D42DDA3}.Debug|x86.ActiveCfg = Debug|x86
+		{D0C9A090-C9B1-400B-991A-6AEB4D42DDA3}.Debug|x86.Build.0 = Debug|x86
+		{D0C9A090-C9B1-400B-991A-6AEB4D42DDA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0C9A090-C9B1-400B-991A-6AEB4D42DDA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0C9A090-C9B1-400B-991A-6AEB4D42DDA3}.Release|x64.ActiveCfg = Release|x64
+		{D0C9A090-C9B1-400B-991A-6AEB4D42DDA3}.Release|x64.Build.0 = Release|x64
+		{D0C9A090-C9B1-400B-991A-6AEB4D42DDA3}.Release|x86.ActiveCfg = Release|x86
+		{D0C9A090-C9B1-400B-991A-6AEB4D42DDA3}.Release|x86.Build.0 = Release|x86
+		{57734ECE-153E-48F8-A89B-6657FF441A85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57734ECE-153E-48F8-A89B-6657FF441A85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57734ECE-153E-48F8-A89B-6657FF441A85}.Debug|x64.ActiveCfg = Debug|x64
+		{57734ECE-153E-48F8-A89B-6657FF441A85}.Debug|x64.Build.0 = Debug|x64
+		{57734ECE-153E-48F8-A89B-6657FF441A85}.Debug|x86.ActiveCfg = Debug|x86
+		{57734ECE-153E-48F8-A89B-6657FF441A85}.Debug|x86.Build.0 = Debug|x86
+		{57734ECE-153E-48F8-A89B-6657FF441A85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57734ECE-153E-48F8-A89B-6657FF441A85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57734ECE-153E-48F8-A89B-6657FF441A85}.Release|x64.ActiveCfg = Release|x64
+		{57734ECE-153E-48F8-A89B-6657FF441A85}.Release|x64.Build.0 = Release|x64
+		{57734ECE-153E-48F8-A89B-6657FF441A85}.Release|x86.ActiveCfg = Release|x86
+		{57734ECE-153E-48F8-A89B-6657FF441A85}.Release|x86.Build.0 = Release|x86
+		{9F4076BE-EB2F-48FE-BF17-84532098F169}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F4076BE-EB2F-48FE-BF17-84532098F169}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F4076BE-EB2F-48FE-BF17-84532098F169}.Debug|x64.ActiveCfg = Debug|x64
+		{9F4076BE-EB2F-48FE-BF17-84532098F169}.Debug|x64.Build.0 = Debug|x64
+		{9F4076BE-EB2F-48FE-BF17-84532098F169}.Debug|x86.ActiveCfg = Debug|x86
+		{9F4076BE-EB2F-48FE-BF17-84532098F169}.Debug|x86.Build.0 = Debug|x86
+		{9F4076BE-EB2F-48FE-BF17-84532098F169}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F4076BE-EB2F-48FE-BF17-84532098F169}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F4076BE-EB2F-48FE-BF17-84532098F169}.Release|x64.ActiveCfg = Release|x64
+		{9F4076BE-EB2F-48FE-BF17-84532098F169}.Release|x64.Build.0 = Release|x64
+		{9F4076BE-EB2F-48FE-BF17-84532098F169}.Release|x86.ActiveCfg = Release|x86
+		{9F4076BE-EB2F-48FE-BF17-84532098F169}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 EndGlobal
